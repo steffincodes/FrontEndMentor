@@ -6,7 +6,7 @@ A repo of submissions for front end mentor challenges.
 
 Challenge: [link](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
 
-Submission: [link]() 
+Submission: [link](https://steffin-codes.github.io/FrontEndMentor/social-proof-section-master/index.html) 
 
 Screenshots: 
 
