@@ -1,0 +1,87 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+:root {
+  --dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+  /* --mobile: 375px;
+  --desktop: 1440px; */
+  --font-size: 15px;
+}
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: "Spartan";
+  font-size: var(--font-size);
+}
+h1 {
+  color: var(--dark-magenta);
+  font-weight: 700;
+  font-size: 2rem;
+}
+p {
+  color: var(--dark-grayish-magenta);
+  /* color: var(--dark-magenta); */
+}
+ul {
+  display: block;
+}
+ul > li {
+  color: var(--dark-magenta);
+  background: var(--light-grayish-magenta);
+  font-weight: 700;
+  border-radius: 0.5em;
+  margin: 1em 0;
+  padding: 1em 0;
+}
+.star {
+  content: url("images/icon-star.svg");
+}
+.review-content {
+  padding-top: 2em;
+}
+.card {
+  color: var(--light-grayish-magenta);
+  background: var(--dark-magenta);
+  border-radius: 5px;
+  margin: 1em 0;
+  padding: 2em;
+  padding-right: 1.8em;
+}
+.card > .header {
+  display: block;
+  height: 4em;
+}
+.card > .header > .profile > img {
+  float: left;
+  border-radius: 50%;
+  height: 3em;
+  margin-right: 2em;
+}
+.card > .header > .name,
+.card > .header > .tag,
+.content {
+  line-height: 1.5em;
+}
+.card > .header > .name {
+  color: var(--white);
+  font-weight: 700;
+}
+.card > .header > .tag {
+  color: var(--soft-pink);
+  font-weight: 500;
+}
+.content {
+  font-size: 13px;
+}

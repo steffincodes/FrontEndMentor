@@ -1,0 +1,22 @@
+@import "main.css";
+body {
+  padding: 1.2em;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+p {
+  text-align: center;
+  line-height: 1.2em;
+}
+ul > li {
+  width: 100%;
+  text-align: center;
+}
+.stars-block {
+  display: block;
+  padding-bottom: 0.8em;
+}

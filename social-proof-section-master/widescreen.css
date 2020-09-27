@@ -1,0 +1,68 @@
+@import "main.css";
+body {
+  margin: 7em auto;
+  padding: 0 6em;
+  max-width: 1400px;
+}
+.top-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+h1 {
+  font-size: 3.7em;
+  padding-right: 1em;
+}
+p {
+  padding-top: 1em;
+  line-height: 1.5em;
+  padding-right: 7em;
+}
+.right-content {
+  /* margin-left: auto; */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+ul > li {
+  width: 60%;
+  padding-left: 2em;
+}
+ul > li:first-child {
+  margin-top: 0;
+  align-self: start;
+}
+ul > li:nth-child(2) {
+  align-self: center;
+}
+ul > li:nth-child(3) {
+  align-self: flex-end;
+}
+.stars-block {
+  display: inline;
+}
+.review-content {
+  display: flex;
+  align-items: flex-start;
+  height: 300px;
+  justify-content: space-between;
+}
+.card {
+  width: 27%;
+}
+.review-content > .card:nth-child(2) {
+  align-self: center;
+}
+.review-content > .card:nth-child(3) {
+  align-self: flex-end;
+}
